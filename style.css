@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: 'Inria Sans', sans-serif; ;
+    font-size: 23px;
+}
+ul{
+    margin: 0;
+    padding:  0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+color: white;
+}
+main{
+    height: 100vh;
+    background-image: url("images/fon.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+li{
+    padding: 30px;
+}
+header ul{
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+}
+header{
+    padding: 50px ;
+    
+
+}
+header{
+    margin-right: 45px;
+}
+.container p{
+    width: 35%;
+}
+
+.container{
+    display: flex;
+justify-content: space-between;
+padding: 30px;
+margin-top:125px;
+
+}
+.text{
+    margin-top: 100px;
+    margin-right: 100px;
+  
+}
+/* второй контейнер*/
+.container2{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-image: url("images/con2.png");
+    height:95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;    
+}
+.textin{position: relative;
+    width: 25%;
+    top:2%
+    
+}
+
+.textpob1{position: relative;
+    width: 19%;
+top:25%;
+
+}
+.textpob2{position: relative;
+    width: 19%;
+top: 25%;
+
+}
+.container2 p {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+    font-size: 28px;
+    margin: 90px;
+}
+/*Контайнер 3*/
+
+.container3{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-image: url("images/con33.png");
+    height:95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+   justify-content: start;   
+   
+}
+
+.viner img{
+    background-image: url("images/vinomen.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+    
+   height: 750px;
+   width: 650px;
+   margin-top: 90px;
+   margin-left: 50px;}
+
+
+   .container3 p {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 73px;
+    font-size: 28px;
+    
+   }
+   .cle1{
+    position: relative;
+width: 485px;
+top:25px;
+left: 160px;
+
+
+   }
+   .cle2{
+    position: relative;
+    width: 475px;
+    top: 125px;
+    left:185px;
+
+   }
+
+   .col1{position: absolute;
+    right: 52%;
+    color:#7D0A0A;
+    font-family: 'Libre Bodoni';
+   }
+.quar{
+    position: relative;
+    width:350px ;
+    height: 350px;
+    margin-top: 25%;
+    right: 39.4%;
+}
+
+/*подвал...*/
+footer{
+    background-color: black;
+    background-image: url("images/podva.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    margin: 0px;
+    padding: 0px;
+
+}
+.fotul{position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    top: 7%;
+}
+.fotp{ 
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 11%;
+    width: 70%px;
+    
+}
